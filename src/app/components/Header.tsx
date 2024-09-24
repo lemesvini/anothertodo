@@ -17,7 +17,7 @@ export default function Header() {
 
   return (
     <div className="flex w-full px-12 bg-black text-white">
-      <span className="md:pt-6 pt-24 pb-6 font-mono font-bold text-xl">
+      <span className="pt-12 pb-6 font-mono font-bold text-lg">
         Welcome, {user}!
       </span>
     </div>
